@@ -1,15 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class Interact : MonoBehaviour
 {
-    void Update()
+    public void StartGame(string level)
     {
 
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Application.LoadLevel("Game");
-        }
+     Application.LoadLevel("Game");
+        
+    }
+
+    public void Level2(string level)
+    {
+
+        Application.LoadLevel("Level2");
+
+    }
+
+    public void Level3(string level)
+    {
+
+        Application.LoadLevel("Level3");
+
+    }
+
+    public void Levels(string level)
+    {
+
+        Application.LoadLevel("Levels");
+
     }
 }
