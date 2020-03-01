@@ -22,7 +22,7 @@ public class Interact : MonoBehaviour
     public void Level3(string level)
     {
 
-        Application.LoadLevel("Level3");
+        Application.LoadLevel("Level3New");
 
     }
 
@@ -30,6 +30,13 @@ public class Interact : MonoBehaviour
     {
 
         Application.LoadLevel("Levels");
+
+    }
+
+    public void MainMenu(string level)
+    {
+
+        Application.LoadLevel("MainMenu");
 
     }
 }

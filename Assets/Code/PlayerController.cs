@@ -60,6 +60,6 @@ public class PlayerController : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "Score: " + count.ToString();
+        countText.text = ":" + count.ToString();
     }
 }
