@@ -11,12 +11,9 @@ public class PlayerController : MonoBehaviour
     public Text countText;
     private int count;
 
-
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        count = 0;
-        SetCountText();
     }
 
     void Update()
@@ -40,8 +37,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
-            count = count + 1;
-            SetCountText();
+            PlayerInfo.coins += 1; 
         }
 
         if (other.gameObject.CompareTag("Enemy"))

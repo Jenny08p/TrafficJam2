@@ -1,11 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CountText
     - Death
     - EnemyCarMovement
     - ExitGame
     - Interact
     - PlayerController
+    - PlayerInfo
     - Scrollingroad
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -80,11 +82,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9572}
+      Script: {instanceID: 9560}
     - Class: 114
-      Script: {instanceID: 10176}
+      Script: {instanceID: 9574}
     - Class: 114
-      Script: {instanceID: 10222}
+      Script: {instanceID: 9602}
+    - Class: 114
+      Script: {instanceID: 10184}
+    - Class: 114
+      Script: {instanceID: 10230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -147,9 +153,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9628}
     - Class: 114
-      Script: {instanceID: 10166}
+      Script: {instanceID: 10174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -216,11 +222,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9572}
+      Script: {instanceID: 9574}
     - Class: 114
-      Script: {instanceID: 10176}
+      Script: {instanceID: 10184}
     - Class: 114
-      Script: {instanceID: 10222}
+      Script: {instanceID: 10230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,11 +299,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9572}
+      Script: {instanceID: 9574}
     - Class: 114
-      Script: {instanceID: 10176}
+      Script: {instanceID: 10184}
     - Class: 114
-      Script: {instanceID: 10222}
+      Script: {instanceID: 10230}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -360,7 +366,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -417,7 +423,62 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9628}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/SkinMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9326}
+    - Class: 114
+      Script: {instanceID: 9328}
+    - Class: 114
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9348}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9628}
+    - Class: 114
+      Script: {instanceID: 10174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -474,7 +535,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9624}
+      Script: {instanceID: 9628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -928,6 +989,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CountText
+  - hash:
+      serializedVersion: 2
       Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -941,6 +1008,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerInfo
+  - hash:
+      serializedVersion: 2
+      Hash: c38a11b8cd0e5b34da98cc83b52eb261
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Interact
@@ -1022,6 +1095,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Store
   - hash:
       serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
@@ -1178,6 +1257,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3abb3e0f6b91589b05e17feb1e93451b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -1187,4 +1272,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Levels.unity
   - Assets/Scenes/Level3New.unity
-  playerPath: C:/Users/jenny/Desktop/TraffiJamBuild_Sprint2/TrafficJam2.exe
+  - Assets/Scenes/SkinMenu.unity
+  playerPath: C:/Users/jenny/Desktop/Sprint3_TrafficJam/TrafficJam2.exe

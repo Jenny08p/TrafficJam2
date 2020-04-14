@@ -63,15 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\CountText.cs" />
     <Compile Include="Assets\Code\Death.cs" />
     <Compile Include="Assets\Code\DeployCars.cs" />
     <Compile Include="Assets\Code\EnemyCarMovement.cs" />
     <Compile Include="Assets\Code\ExitGame.cs" />
     <Compile Include="Assets\Code\Interact.cs" />
+    <Compile Include="Assets\Code\Items.cs" />
+    <Compile Include="Assets\Code\MenuManager.cs" />
     <Compile Include="Assets\Code\PlayerController.cs" />
+    <Compile Include="Assets\Code\PlayerInfo.cs" />
     <Compile Include="Assets\Code\PlayerMovement.cs" />
+    <Compile Include="Assets\Code\PurchasePanelManager.cs" />
     <Compile Include="Assets\Code\ResetScript.cs" />
     <Compile Include="Assets\Code\Scrollingroad.cs" />
+    <Compile Include="Assets\Code\Store.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Spring_Semester_2020/TrafficJam2/TrafficJam2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

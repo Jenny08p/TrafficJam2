@@ -377,6 +377,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ac0a839a1ded541abdd3dfa48af20e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConfirmPurchase: {fileID: 0}
+  ConfirmPurchase1: {fileID: 0}
+  ConfirmPurchase2: {fileID: 0}
+  Equip1: {fileID: 0}
+  Equip2: {fileID: 0}
+  Equip3: {fileID: 0}
+  Variant1: {fileID: 0}
+  Variant2: {fileID: 0}
+  Variant3: {fileID: 0}
 --- !u!1 &654535198
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +692,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ac0a839a1ded541abdd3dfa48af20e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConfirmPurchase: {fileID: 0}
+  ConfirmPurchase1: {fileID: 0}
+  ConfirmPurchase2: {fileID: 0}
+  Equip1: {fileID: 0}
+  Equip2: {fileID: 0}
+  Equip3: {fileID: 0}
+  Variant1: {fileID: 0}
+  Variant2: {fileID: 0}
+  Variant3: {fileID: 0}
 --- !u!114 &1127218915
 MonoBehaviour:
   m_ObjectHideFlags: 0
